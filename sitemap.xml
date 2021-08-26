@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://chenzechen.com/2021/04/26/%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E5%85%B3%E8%81%94%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/</loc>
+    <loc>https://chenzechen.com/2021/04/09/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2Gitee-Pages-%E6%9C%8D%E5%8A%A1/</loc>
     
     <lastmod>2021-07-26</lastmod>
     
@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://chenzechen.com/2021/04/09/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2Gitee-Pages-%E6%9C%8D%E5%8A%A1/</loc>
+    <loc>https://chenzechen.com/2021/04/26/%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E5%85%B3%E8%81%94%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/</loc>
     
     <lastmod>2021-07-26</lastmod>
     
@@ -88,20 +88,6 @@
   </url>
   
   <url>
-    <loc>https://chenzechen.com/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2021-08-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenzechen.com/tags/%E5%8D%8F%E8%AE%AE/</loc>
-    <lastmod>2021-08-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chenzechen.com/tags/node/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
@@ -109,14 +95,7 @@
   </url>
   
   <url>
-    <loc>https://chenzechen.com/tags/SourceTree/</loc>
-    <lastmod>2021-08-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenzechen.com/tags/git/</loc>
+    <loc>https://chenzechen.com/tags/puppeteer/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -151,7 +130,28 @@
   </url>
   
   <url>
-    <loc>https://chenzechen.com/tags/puppeteer/</loc>
+    <loc>https://chenzechen.com/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2021-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenzechen.com/tags/%E5%8D%8F%E8%AE%AE/</loc>
+    <lastmod>2021-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenzechen.com/tags/SourceTree/</loc>
+    <lastmod>2021-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenzechen.com/tags/git/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -167,14 +167,14 @@
   </url>
   
   <url>
-    <loc>https://chenzechen.com/categories/%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://chenzechen.com/categories/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://chenzechen.com/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://chenzechen.com/categories/%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2021-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
