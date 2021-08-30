@@ -52,7 +52,7 @@
 
   
     
-<link rel="stylesheet" href="/blog/css/main.css">
+<link rel="stylesheet" href="/css/main.css">
 
   
 
@@ -80,7 +80,7 @@
 
 <header class="header">
 
-<div class="logo-wrap"><a class="avatar" href="/blog/about/"><div class="bg" style="opacity:0;background-image:url(https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.2/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://md-pic-save.oss-cn-shanghai.aliyuncs.com/typoraImg/Jun-logo_100.png" onerror="javascript:this.classList.add('error');this.src='https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg';"></a><a class="title" href="/blog/"><div class="main">Koonie Blog</div><div class="sub normal cap">just run</div><div class="sub hover cap" style="opacity:0">chenzechen.com</div></a></div>
+<div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.2/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://md-pic-save.oss-cn-shanghai.aliyuncs.com/typoraImg/Jun-logo_100.png" onerror="javascript:this.classList.add('error');this.src='https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg';"></a><a class="title" href="/"><div class="main">Koonie Blog</div><div class="sub normal cap">just run</div><div class="sub hover cap" style="opacity:0">chenzechen.com</div></a></div>
 <nav class="menu dis-select"></nav></header>
 
 <div class="widgets">
@@ -98,7 +98,7 @@
       
 
 
-<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/blog/">Koonie Blog</a><span class="sep"></span><a class="cap breadcrumb" href="/blog/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/blog/categories/%E5%B7%A5%E5%85%B7/">工具</a></div><div id="post-meta">发布于&nbsp;<time datetime="2021-08-27T01:19:06.000Z">2021-08-27</time></div></div>
+<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">Koonie Blog</a><span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a></div><div id="post-meta">发布于&nbsp;<time datetime="2021-08-27T01:19:06.000Z">2021-08-27</time></div></div>
 
 <article class='content md post'>
 <h1 class="article-title"><span>github pages 绑定域名</span></h1>
@@ -155,11 +155,17 @@
 
 
 <div class="article-footer reveal fs14"><section id="license"><div class="header"><span>许可协议</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
-</div></section></div>
+</div></section><section id="share"><div class="header"><span>分享文章</span></div><div class="body"><div class="link"><input class="copy-area" readonly="true" id="copy-link" value="https://chenzechen.com/2021/08/27/github-pages-%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/" /></div><div class="social-wrap dis-select"><a class="social share-item wechat" onclick="util.toggle(&quot;qrcode-wechat&quot)"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/b32ef3da1162a.svg"/></a><a class="social share-item weibo" target="_blank" rel="external nofollow noopener noreferrer" href="https://service.weibo.com/share/share.php?url=https://chenzechen.com/2021/08/27/github-pages-%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/&title=github pages 绑定域名 - Koonie Blog&summary=一些描述hexo搭建的博客，github page发布后，想绑定到个人域名🥺。
+准备材料
+域名
+GitHub Page
+
+开始行动一、生成CNAME文件方法一（推荐）code根目录新建一个CNAME文件，内容为自己的域名
+注意点：C..."><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/80c07e4dbb303.svg"/></a><a class="social share-item link" onclick="util.copy(&quot;copy-link&quot;, &quot;复制成功&quot;)"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/8411ed322ced6.svg"/></a></div><div class="qrcode" id="qrcode-wechat" style="visibility:hidden;height:0"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=https://chenzechen.com/2021/08/27/github-pages-%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/index.html"/></div></div></section></div>
 
 </article>
 
-<div class="related-wrap reveal" id="read-next"><section class="header cap theme"><span>接下来阅读</span></section><section class="body fs14"><a id="next" href="/blog/2021/07/28/%E5%8D%87%E7%BA%A7node%E8%87%B3%E6%8C%87%E5%AE%9A%E7%89%88%E6%9C%AC/">升级node至指定版本<span class="note">较早</span></a><div class="line"></div><div class="line"></div><a id="more" href="/blog/archives">检索全部文章</a></section></div>
+<div class="related-wrap reveal" id="read-next"><section class="header cap theme"><span>接下来阅读</span></section><section class="body fs14"><a id="next" href="/2021/07/28/%E5%8D%87%E7%BA%A7node%E8%87%B3%E6%8C%87%E5%AE%9A%E7%89%88%E6%9C%AC/">升级node至指定版本<span class="note">较早</span></a><div class="line"></div><div class="line"></div><a id="more" href="/archives">检索全部文章</a></section></div>
 
 
 
@@ -181,7 +187,7 @@
 
       
 <footer class="page-footer reveal fs12"><hr><div class="text"><p>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
-<p>本站由 <a href="https://chenzechen.com/blog/">@Wang Jun</a> 创建，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.5.1" title="v1.5.1">Stellar</a> 作为主题。</p>
+<p>本站由 <a href="https://chenzechen.com/">@Wang Jun</a> 创建，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.5.1" title="v1.5.1">Stellar</a> 作为主题。</p>
 </div></footer>
 
       <div class='float-panel mobile-only blur' style='display:none'>
@@ -299,8 +305,8 @@
   // required plugins (only load if needs)
   stellar.plugins = {
     jQuery: 'https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js',
-    sitesjs: '/blog/js/plugins/sites.js',
-    friendsjs: '/blog/js/plugins/friends.js',
+    sitesjs: '/js/plugins/sites.js',
+    friendsjs: '/js/plugins/friends.js',
   };
 
   // optional plugins
@@ -321,7 +327,7 @@
 <!-- required -->
 
   
-<script src="/blog/js/main.js" async></script>
+<script src="/js/main.js" async></script>
 
 
 
